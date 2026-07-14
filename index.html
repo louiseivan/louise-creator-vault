@@ -34,7 +34,7 @@
       <div class="cards" id="statcards"></div>
       <div class="panelbox">
         <div class="tlhead">
-          <h3 id="tltitle">Views per week · last 90 days</h3>
+          <h3 id="tltitle">Views per week · all time</h3>
           <div class="tlctl">
             <div class="mnav" id="mnav" hidden>
               <button id="mprev" aria-label="Previous month">‹</button>
@@ -42,8 +42,8 @@
               <button id="mnext" aria-label="Next month">›</button>
             </div>
             <div class="seg" id="rangeseg" role="tablist" aria-label="Time range">
-              <button id="r90" class="on" role="tab" aria-selected="true">90d</button>
-              <button id="rall" role="tab" aria-selected="false">All</button>
+              <button id="r90" role="tab" aria-selected="false">90d</button>
+              <button id="rall" class="on" role="tab" aria-selected="true">All</button>
             </div>
             <div class="seg" role="tablist" aria-label="Timeline mode">
               <button id="modeweek" class="on" role="tab" aria-selected="true">Weekly</button>
@@ -60,14 +60,18 @@
     <section id="graph-view">
       <div class="crumb">vault <em>/</em> instagram <em>/</em> graph</div>
       <h2>Graph view</h2>
-      <p class="sub">Each niche is a hub. The dots around it are your top posts, sized by views. Hover a node to light up its cluster. Drag to pan, scroll to zoom, click a post to open the reel.</p>
+      <p class="sub">An Obsidian-style constellation of the complete archive. Every niche is a hub, and every post streams in chronologically as a glowing node — size is views, color is niche — while light pulses travel the links and the counters process each metric. Hover to light up a cluster, click a post to open the reel, drag to pan, scroll to zoom.</p>
       <div id="graphwrap">
+        <div id="ghud">
+          <div class="gchip" id="gstatus"><span class="pulsedot"></span><span id="gstate" class="glab">processing archive</span><span class="gsep">·</span><span id="gdate" class="mono">—</span><span class="gsep">·</span><span id="gprog" class="mono">0%</span></div>
+          <div id="gchips"></div>
+        </div>
         <canvas id="graph"></canvas>
         <div id="gtip"></div>
         <button id="replay" title="Replay animation" aria-label="Replay graph animation">⟳ replay</button>
         <div class="legend" id="legend"></div>
       </div>
-      <p class="gnote">Showing the top 60 posts by views. Brighter halo means a higher save rate.</p>
+      <p class="gnote">Constellation of the full posting history. Node size is views, color is niche, brighter halo is a higher save rate. Drag to pan, scroll to zoom.</p>
     </section>
 
     <section id="niches">

@@ -227,3 +227,20 @@ footer{margin-left:236px;padding:18px 42px;border-top:1px solid var(--line);colo
 .hkbody{min-width:0}
 .hktext{font-size:12.5px;color:var(--ink);line-height:1.4;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
 .hkmeta{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--mute);margin-top:4px}
+
+/* graph view — JARVIS HUD */
+#ghud{position:absolute;top:12px;left:12px;right:104px;display:flex;flex-direction:column;gap:6px;z-index:4;pointer-events:none}
+#gchips{display:flex;gap:6px;flex-wrap:wrap}
+.gchip{display:inline-flex;align-items:center;gap:7px;background:linear-gradient(180deg,rgba(22,26,35,.72),rgba(13,16,22,.5));border:1px solid rgba(120,170,255,.15);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-radius:8px;padding:5px 11px;font-size:11px;color:var(--mute);width:max-content;max-width:100%;box-shadow:0 4px 18px rgba(0,0,0,.28)}
+.gchip .glab{text-transform:uppercase;letter-spacing:.07em;font-size:9.5px}
+.gchip b{font-family:'JetBrains Mono',monospace;font-weight:600;color:var(--ink);font-size:11.5px}
+.gchip .mono{font-size:11px;color:var(--ink)}
+.gchip .gsep{color:var(--dim)}
+.gdot{width:7px;height:7px;border-radius:50%;box-shadow:0 0 9px 1px currentColor;flex:none}
+.pulsedot{width:8px;height:8px;border-radius:50%;background:#38bdf8;box-shadow:0 0 10px #38bdf8;flex:none;animation:gpulse 1.6s ease-in-out infinite}
+#gstatus #gstate{color:#9fd6ff}
+#gstatus.live .pulsedot{background:#34d399;box-shadow:0 0 10px #34d399}
+#gstatus.live #gstate{color:#8ff0c8}
+@keyframes gpulse{0%,100%{opacity:.45;transform:scale(.85)}50%{opacity:1;transform:scale(1.12)}}
+@media(prefers-reduced-motion:reduce){.pulsedot{animation:none}}
+@media(max-width:640px){#graph{height:400px}.gchip{padding:4px 8px;gap:5px}.gchip b{font-size:10.5px}}
