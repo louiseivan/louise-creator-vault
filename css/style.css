@@ -55,7 +55,7 @@ h2{font-size:19px;font-weight:600;margin-bottom:14px;padding-bottom:8px;border-b
 .card .d{font-size:11.5px;color:var(--dim);margin-top:2px}
 
 /* graph */
-#graphwrap{background:var(--panel);border:1px solid var(--line);border-radius:10px;position:relative;overflow:hidden}
+#graphwrap{background:linear-gradient(165deg,#070910 0%,#0b0f1b 45%,#05070d 100%);border:1px solid #1c2233;border-radius:10px;position:relative;overflow:hidden;box-shadow:inset 0 1px 0 rgba(255,255,255,.04),0 18px 44px rgba(0,0,0,.5)}
 #graph{display:block;width:100%;height:520px;cursor:grab}
 #graph:active{cursor:grabbing}
 #gtip{position:absolute;pointer-events:none;background:#0f1114;border:1px solid var(--line);border-radius:6px;padding:8px 10px;font-size:12px;max-width:260px;display:none;z-index:5}
@@ -117,10 +117,6 @@ footer{margin-left:236px;padding:18px 42px;border-top:1px solid var(--line);colo
 @media(max-width:840px){footer{margin-left:0;padding:16px}}
 :focus-visible{outline:2px solid var(--acc);outline-offset:2px}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-
-/* graph replay button */
-#replay{position:absolute;top:12px;right:12px;background:#0f1114;border:1px solid var(--line);color:var(--mute);font-family:'JetBrains Mono',monospace;font-size:11.5px;padding:5px 10px;border-radius:6px;cursor:pointer;z-index:6}
-#replay:hover{color:var(--acc);border-color:var(--acc-dim)}
 
 /* timeline toggle + calendar */
 .tlhead{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}
@@ -229,7 +225,7 @@ footer{margin-left:236px;padding:18px 42px;border-top:1px solid var(--line);colo
 .hkmeta{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--mute);margin-top:4px}
 
 /* graph view — JARVIS HUD */
-#ghud{position:absolute;top:12px;left:12px;right:104px;display:flex;flex-direction:column;gap:6px;z-index:4;pointer-events:none}
+#ghud{position:absolute;top:12px;left:12px;right:12px;display:flex;flex-direction:column;gap:6px;z-index:4;pointer-events:none}
 #gchips{display:flex;gap:6px;flex-wrap:wrap}
 .gchip{display:inline-flex;align-items:center;gap:7px;background:linear-gradient(180deg,rgba(22,26,35,.72),rgba(13,16,22,.5));border:1px solid rgba(120,170,255,.15);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-radius:8px;padding:5px 11px;font-size:11px;color:var(--mute);width:max-content;max-width:100%;box-shadow:0 4px 18px rgba(0,0,0,.28)}
 .gchip .glab{text-transform:uppercase;letter-spacing:.07em;font-size:9.5px}
