@@ -4,7 +4,7 @@ An Instagram performance dashboard and 30-day content plan, built entirely on to
 
 This is [@louise.ivan](https://www.instagram.com/louise.ivan/)'s vault — 229 posts, 8 niches, 13.8M views. It's also a template. If you're a creator who wants the same dashboard for your own account, everything below shows you how it was built and how to rebuild it with your own numbers.
 
-Static site. No build step, no framework, no dependencies beyond Google Fonts. Open `index.html` and it runs.
+Static site. No build step, no framework, no dependencies beyond Google Fonts. Open `index.html` and it runs. Live at [louiseivan.github.io/louise-creator-vault](https://louiseivan.github.io/louise-creator-vault/).
 
 ![Overview](docs/images/overview.png)
 
@@ -29,9 +29,11 @@ It's dark, Obsidian-styled, one static HTML file, real data baked into a JS `con
 
 ## Sections
 
-**Overview** — stat cards (posts, views, saves, shares, followers, views-per-follower) and a weekly views timeline with a 90-day/all-time toggle and a calendar view that heat-shades every day by views.
+**Overview** — stat cards (posts, views, saves, shares, followers, views-per-follower) and a weekly views timeline (all-time by default, 90-day toggle) with a calendar view that heat-shades every day by views.
 
-**Graph view** — an animated force-directed graph in the style of Obsidian's link graph. Each niche is a hub; your top 60 posts orbit their niche hub, sized by views, with a brighter halo for a higher save rate. Drag to pan, scroll to zoom, click a post to open the reel.
+**Graph view** — a continuous, real-time Instagram intelligence engine in obsidian glass. Content formats (reels, carousels, static posts, stories) and engagement signals (views, reach, impressions, likes, comments, shares, saves, watch time, profile visits, followers) stream in from the left as thin glowing lines. Luminous particles flow through a pulsing processing core and fan out into niche performance clusters on the right, where the small nodes orbiting each cluster are that niche's top three posts.
+
+Everything is weighted by the real numbers: stream brightness, thickness, speed and particle rate follow lifetime totals; cluster size follows views; the halo follows save rate; the top niches gently pulse. A glass HUD pins live status with a ticking events counter and real lifetime totals (views, reach, likes, comments, shares, saves, engagement rate). The animation never stops — no timeline window, no reset point, no loop — with parallax depth, soft camera drift, and a static render for `prefers-reduced-motion`. Hover any source, cluster, or orbit node for the underlying numbers; click an orbit node to open the post; drag to pan, scroll to zoom. Streams without per-post API data (stories, profile visits, impressions, follows) run as dim ambient lines and say so in their tooltips.
 
 ![Graph view](docs/images/graph.png)
 
@@ -149,4 +151,6 @@ Static files, deploys anywhere:
 
 **Netlify, with git:** push this repo, then Netlify → Add new site → Import an existing project. Build command empty, publish directory `.`.
 
-Also works as-is on GitHub Pages, Vercel, or Cloudflare Pages.
+**GitHub Pages:** this repo deploys from `main` (root) and is live at [louiseivan.github.io/louise-creator-vault](https://louiseivan.github.io/louise-creator-vault/) — pushes to `main` redeploy automatically.
+
+Also works as-is on Vercel or Cloudflare Pages.

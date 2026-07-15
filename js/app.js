@@ -272,7 +272,7 @@ document.getElementById('legend').innerHTML = Object.entries(NICHE_COLORS)
 
   /* ---- scene state ---- */
   let W, H, sources = [], clusters = [], headers = [], core = null, stars = [];
-  let clock = 0, lastT = null, events = 0, hoverItem = null;
+  let clock = 0, lastT = null, events = T.likes+T.comments+T.saves+T.shares, hoverItem = null;
   let cam = {x:0, y:0, z:1}, dragging = false, dragStart = null;
   const inbound = [], outbound = [], pulses = [], flashes = [];
   let inAcc = 0, outAcc = 0, pulseAcc = 0;
