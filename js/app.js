@@ -710,8 +710,7 @@ addEventListener('scroll',()=>{
   PLAN.forEach(p=>byDate[p.date]=p);
   const detail = document.getElementById('plandetail');
 
-  function renderMonth(gridId, year, month, fromDay, toDay){
-    const grid = document.getElementById(gridId);
+  function renderMonth(grid, year, month, fromDay, toDay){
     const daysIn = new Date(year, month+1, 0).getDate();
     const lead = (new Date(year, month, 1).getDay()+6)%7;
     let cells = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].map(d=>'<div class="dow">'+d+'</div>').join('');
@@ -728,8 +727,27 @@ addEventListener('scroll',()=>{
     }
     grid.innerHTML = cells;
   }
-  renderMonth('plangrid1', 2026, 6, 3, 31);   /* July 3-31 */
-  renderMonth('plangrid2', 2026, 7, 1, 1);    /* Aug 1 */
+  /* build one month block per calendar month that appears in PLAN */
+  (function(){
+    const cal = document.getElementById('plancal');
+    const dates = PLAN.map(p=>p.date).sort();
+    const first = dates[0], last = dates[dates.length-1];
+    const months = [...new Set(dates.map(d=>d.slice(0,7)))].sort();
+    const monthName = ym => new Date(ym+'-01T00:00:00').toLocaleString('en',{month:'long',year:'numeric'});
+    months.forEach(ym=>{
+      const [y, mo] = ym.split('-').map(Number);
+      const label = document.createElement('div');
+      label.className = 'planmonth mono';
+      label.textContent = monthName(ym);
+      const grid = document.createElement('div');
+      grid.className = 'plangrid';
+      cal.appendChild(label);
+      cal.appendChild(grid);
+      const fromDay = ym === first.slice(0,7) ? Number(first.slice(8)) : 1;
+      const toDay = ym === last.slice(0,7) ? Number(last.slice(8)) : 31;
+      renderMonth(grid, y, mo-1, fromDay, toDay);
+    });
+  })();
 
   function openCard(key){
     document.querySelectorAll('.pcell').forEach(x=>x.classList.remove('sel'));
