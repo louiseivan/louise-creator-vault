@@ -9,6 +9,10 @@
 /* 2026-07-20: appended a 4th hook option per day from the creating-hooks skill
    (7x7 Bank + frameworks.md + signals/trends.md, audience B: founders/builders).
    Tagged "7x7 Skill". 3 previously approved hooks placed on Jul 23, Aug 2, Aug 6. */
+/* 2026-07-20: 15-day Fundraising Series slotted onto Jul 23, Aug 1, 2, 6, 7, 15, 16, 21, 27,
+   Sep 1, 6, 7, 12, 13, 18 (chained loops, part N points to N+1, part 15 points to pinned part 1).
+   All numbers sourced from Obsidian vault fundraising retros. Product demo days (Jul 25, Aug 26)
+   deliberately left untouched. Original slot names preserved in each day's why field. */
 const PLAN = [
  {
   "date": "2026-07-21",
@@ -120,16 +124,22 @@ const PLAN = [
  },
  {
   "date": "2026-07-23",
-  "name": "Fundraising advice is mostly written by people who never raised. I raised $4.8M. It's simpler and uglier.",
+  "name": "The $250K DM (Fundraising series 1/15)",
   "topic": "Fundraising",
   "mission": "Authority",
   "format": "Talking head",
   "intensity": "High",
   "niche": "Contrarian Take",
-  "hookType": "Contrarian/Hard Truth",
-  "framework": "Authority Credential",
-  "why": "90d data: Contrarian/Hard Truth is the best hook on both axes, 7.1 saves/1K and 13.5K avg views. Market signals also flag Pattern Interrupt as CANDIDATE (3 accounts). Stacks Authority Credential (top market CANDIDATE) on the best personal hook type.",
+  "hookType": "Curiosity Gap",
+  "framework": "Vulnerable Origin + Curiosity Reveal",
+  "why": "Fundraising series 1/15, vault-sourced (pre-seed/bridge/seed retros, every number real). Replaced original slot: 'Fundraising advice is mostly written by people who never raised. I raised $4.8M. It's simpler and uglier.'. Chained loop hands off to part 2.",
   "hooks": [
+   {
+    "t": "Fundraising Series · Vulnerable Origin + Curiosity Reveal",
+    "s": "Our first investor check came from a DM. $250K, wired the next day.",
+    "o": "$250K from a DM",
+    "v": "Talking head, direct to camera, text overlay on beat"
+   },
    {
     "t": "Contrarian",
     "s": "Fundraising advice is mostly written by people who never raised. I raised $4.8M. It's simpler and uglier.",
@@ -155,22 +165,21 @@ const PLAN = [
     "v": "Static close shot, no b-roll, let the line sit"
    }
   ],
-  "script": "HOOK: Fundraising advice is mostly written by people who never raised. I raised $4.8M. It's simpler and uglier. BUILD: I started with a $5K grant, built a 9-person team, shipped hardware wallets from the Philippines to Amsterdam, now we serve 68 countries. The hard part is aligning cash flow with product milestones, not chasing buzz. PAYOFF: Focus on a single measurable milestone each month and show investors real cash movement. LOOP: Follow me for more no-fluff fundraising lessons.",
+  "script": "HOOK: Our first investor check came from a DM. $250K, wired the next day., BUILD: No deck meeting, no intro. Someone had been quietly watching us build on X for about a year. One call. The next morning the money was in the account. I was shocked. My first thought was, oh, so this is how easy raising is. It wasn't. That check happened because of twelve months of public building he watched before we ever spoke., PAYOFF: Investors don't bet on the call. They bet on everything they saw before the call., LOOP: Next reel: how that easy first round almost broke us a year later.",
   "shots": [
-   "0-2s: Louise looks into camera, serious expression",
-   "2-5s: Close-up of grant letter showing $5K amount",
-   "5-9s: Team photo of 9 people around a table",
-   "9-13s: Map line from Philippines to Amsterdam, overlay of 68 countries",
-   "13-15s: Whiteboard with milestone metric, Louise pointing"
+   "0-2s: Hook direct to camera, overlay line 1",
+   "2-15s: Build, talking head with overlay beats per claim",
+   "15-22s: Payoff line, slight push-in, key overlay",
+   "22-25s: Loop tease to next part, series card"
   ],
   "overlay": [
-   "No fluff",
-   "Grant to $4.8M",
-   "9-person team",
-   "68 countries"
+   "$250K from a DM",
+   "one call. wired next day.",
+   "12 months of building first",
+   "Part 1/15"
   ],
-  "caption": "I write fundraising advice from the inside, because I raised $4.8M after a $5K grant, built a 9-person team, and now ship wallets from the Philippines to Amsterdam across 68 countries, I know the process is messy, not glamorous, the toughest part is matching cash flow to product milestones, you cannot rely on hype, you need a single measurable goal each month, show investors real numbers, cut the fluff, keep the plan simple, the results speak for themselves, follow for more fundraising truth.",
-  "cta": "Follow for more fundraising truth."
+  "caption": "Our first check came from an X DM. $250K, one call, wired the next morning. It looked like luck. It was twelve months of building in public that he watched before we ever spoke. Investors bet on what they saw before the call, not the call. Full raise story in this series.",
+  "cta": "Follow for the rest of the raise story."
  },
  {
   "date": "2026-07-24",
@@ -606,16 +615,22 @@ const PLAN = [
  },
  {
   "date": "2026-08-01",
-  "name": "I've shipped hardware wallets to 68 countries. The top 5 surprised me.",
+  "name": "The easy round lie (Fundraising series 2/15)",
   "topic": "Product",
   "mission": "Authority",
-  "format": "Map + talking head",
-  "intensity": "Medium",
+  "format": "Talking head",
+  "intensity": "High",
   "niche": "Crypto / Ryder",
-  "hookType": "List/Number",
-  "framework": "Authority Credential",
-  "why": "90d data: 6.5 saves/1K, above account average, and it sells the product. Business slot that earns its place. Real shipping data from the 68-country analysis. Credential plus reveal.",
+  "hookType": "Contrarian/Hard Truth",
+  "framework": "Brutal Honesty + Vulnerable Origin",
+  "why": "Fundraising series 2/15, vault-sourced (pre-seed/bridge/seed retros, every number real). Replaced original slot: 'I've shipped hardware wallets to 68 countries. The top 5 surprised me.'. Chained loop hands off to part 3.",
   "hooks": [
+   {
+    "t": "Fundraising Series · Brutal Honesty + Vulnerable Origin",
+    "s": "Our first round closed itself. That almost killed the company.",
+    "o": "round 1: closed itself",
+    "v": "Talking head, direct to camera, text overlay on beat"
+   },
    {
     "t": "Statement",
     "s": "I've shipped hardware wallets to 68 countries. The top 5 surprised me.",
@@ -641,35 +656,40 @@ const PLAN = [
     "v": "World map filling in dots"
    }
   ],
-  "script": "HOOK: I've shipped hardware wallets to 68 countries. The top 5 surprised me, I reveal the data, BUILD: I map shipments from the Philippines to Amsterdam, show the five markets where our wallet outperformed expectations, cite the 90 day metric of 6.5 saves per 1,000 users, and reference our $4.8 million raise and $5,000 grant that funded this reach, PAYOFF: The proof is clear, our device delivers real security where it matters most, LOOP: Follow for more insights.",
+  "script": "HOOK: Our first round closed itself. That almost killed the company., BUILD: Pre-seed: about a million dollars, mostly from our network, in a bull market. It came together so fast we assumed that's what fundraising is. A year later we went out for a small bridge and hit a wall. Different market, money already sunk into manufacturing, and the confidence from round one made us slower to adapt., PAYOFF: An easy round is a market condition, not a skill. Never build your expectations on it., LOOP: The number in our bank account when we finally learned this? That's the next reel.",
   "shots": [
-   "0-2s: World map animates, pins appear on 68 countries",
-   "2-5s: Zoom to Philippines, line traces to Amsterdam",
-   "5-9s: Bar chart of top 5 countries, numbers pop",
-   "9-12s: Overlay of 6.5 saves per 1,000 users metric",
-   "12-15s: Louise speaking to camera, call to action"
+   "0-2s: Hook direct to camera, overlay line 1",
+   "2-15s: Build, talking head with overlay beats per claim",
+   "15-22s: Payoff line, slight push-in, key overlay",
+   "22-25s: Loop tease to next part, series card"
   ],
   "overlay": [
-   "68 countries shipped",
-   "Top 5 markets",
-   "6.5 saves per 1k",
-   "Secure your assets"
+   "round 1: closed itself",
+   "round 2: hit a wall",
+   "easy ≠ skill",
+   "Part 2/15"
   ],
-  "caption": "From the Philippines to Amsterdam I have delivered Ryder hardware wallets to 68 countries, the data shows five markets that exceeded our expectations, the 90 day analysis reveals a rate of 6.5 saves per 1,000 users, our $5,000 grant and $4.8 million raise enabled a nine person team to scale this effort, each shipment is tracked, each user gains secure access, customers in Brazil, Germany, Japan, Nigeria and Canada reported the highest activation rates, the wallet’s cold storage design reduced breach risk by over 30 percent, our support team handles inquiries across seven time zones, ensuring rapid response, I share the map, the bar chart, the metric, all to prove real value, join the community that trusts our device, secure your crypto today.",
-  "cta": "Secure your crypto today."
+  "caption": "Our pre-seed closed itself: about $1M, mostly network, peak bull market. That ease set an expectation that nearly broke us when the bridge round hit a cold market a year later. An easy round is a market condition, not a skill. Part 2 of the fundraising series.",
+  "cta": "Save this before your first raise."
  },
  {
   "date": "2026-08-02",
-  "name": "I started Ryder with a $5K grant. We've raised $4.8M. The middle was the problem.",
+  "name": "$42K in the bank (Fundraising series 3/15)",
   "topic": "Founder",
   "mission": "Authority",
   "format": "Talking head",
   "intensity": "High",
   "niche": "Founder Story",
   "hookType": "Contrarian/Hard Truth",
-  "framework": "Authority Credential",
-  "why": "90d data: overposted at 32 posts for 2.0 saves/1K. Cut to 6 slots and rebuilt on Authority Credential, the top market CANDIDATE (6 outlier hits, 3 accounts, 78x top signal). The flagship credential arc, structured like the 78x surgeon signal.",
+  "framework": "Vulnerable Origin",
+  "why": "Fundraising series 3/15, vault-sourced (pre-seed/bridge/seed retros, every number real). Replaced original slot: 'I started Ryder with a $5K grant. We've raised $4.8M. The middle was the problem.'. Chained loop hands off to part 4.",
   "hooks": [
+   {
+    "t": "Fundraising Series · Vulnerable Origin",
+    "s": "$42K in the bank. Nine people. No founder salaries. This is that story.",
+    "o": "$42K left",
+    "v": "Talking head, direct to camera, text overlay on beat"
+   },
    {
     "t": "Authority Credential",
     "s": "I started Ryder with a $5K grant. We've raised $4.8M. The middle was the problem.",
@@ -695,22 +715,21 @@ const PLAN = [
     "v": "Old photo cut against award footage"
    }
   ],
-  "script": "HOOK: I started Ryder with a $5K grant. We've raised $4.8M. The middle was the problem. BUILD: The middle was hardware delays, a bear market, and months where the plan was survival, not growth. Nobody funds the middle, you just get through it. PAYOFF: Investors backed us because we kept shipping through the part where most teams quit, the raise was a receipt for the survival. LOOP: If you're in your middle right now, that's the resume you're building.",
+  "script": "HOOK: $42K in the bank. Nine people. No founder salaries. This is that story., BUILD: This was the bridge round. Our crowdfunding campaign fell short of covering manufacturing, the market was cold, and we'd already sunk money into the first production run. Every founder was working unpaid. And the biggest lesson from that stretch wasn't hustle. It was that you should raise when you're strong, because raising desperate costs you twice., PAYOFF: We closed $405K at nearly double our target. Not because of the desperation. Because we finally got transparent about exactly what the money did., LOOP: The one-line ask that closed it is in the next reel.",
   "shots": [
-   "0-2s: grant email screenshot, snap zoom to face",
-   "2-5s: b-roll of early prototypes and shipping boxes",
-   "5-8s: talking head, measured pace on the hard part",
-   "8-11s: device in hand, team footage",
-   "11-13s: direct to lens for the loop line"
+   "0-2s: Hook direct to camera, overlay line 1",
+   "2-15s: Build, talking head with overlay beats per claim",
+   "15-22s: Payoff line, slight push-in, key overlay",
+   "22-25s: Loop tease to next part, series card"
   ],
   "overlay": [
-   "$5K grant, day one",
-   "the middle: delays + bear market",
-   "kept shipping anyway",
-   "$4.8M was the receipt"
+   "$42K left",
+   "0 founder salaries",
+   "closed 1.93x target",
+   "Part 3/15"
   ],
-  "caption": "Ryder started with a five thousand dollar grant, and today we've raised 4.8 million, but the line between those two numbers is not a line, it's a mess of hardware delays, a bear market, and months where the entire strategy was survive. Nobody writes checks for the middle part, you just get through it with a small team and a stubborn reason. What finally made the raise possible wasn't a better deck, it was the record of shipping through the stretch where most teams stop. Comment MIDDLE if you want the honest version of that timeline.",
-  "cta": "Comment MIDDLE for the honest timeline"
+  "caption": "At the low point of our bridge round we had $42K in the bank and no founder was taking a salary. The round still closed at $405K, almost double the target, because we stopped hiding the situation and got specific about what every dollar did. Raise at strength when you can. Be transparent when you can't. Part 3.",
+  "cta": "Follow for the one-line ask."
  },
  {
   "date": "2026-08-03",
@@ -876,16 +895,22 @@ const PLAN = [
  },
  {
   "date": "2026-08-06",
-  "name": "5 fundraising email subject lines that actually got replies.",
+  "name": "The one-line ask (Fundraising series 4/15)",
   "topic": "Fundraising",
-  "mission": "Saves",
-  "format": "Screen demo",
-  "intensity": "Medium",
+  "mission": "Authority",
+  "format": "Talking head",
+  "intensity": "High",
   "niche": "How-To / List",
-  "hookType": "List/Number",
-  "framework": "Numbered Listicle",
-  "why": "90d data: steady save earner at 7.0 saves/1K across 20 posts. List/Number hook runs 5.9 saves/1K. Real inbox receipts. Save play for the founder ICP.",
+  "hookType": "Contrarian/Hard Truth",
+  "framework": "Pattern Interrupt + Authority Credential",
+  "why": "Fundraising series 4/15, vault-sourced (pre-seed/bridge/seed retros, every number real). Replaced original slot: '5 fundraising email subject lines that actually got replies.'. Chained loop hands off to part 5.",
   "hooks": [
+   {
+    "t": "Fundraising Series · Pattern Interrupt + Authority Credential",
+    "s": "The ask that closed our bridge round was one line long.",
+    "o": "the entire ask:",
+    "v": "Talking head, direct to camera, text overlay on beat"
+   },
    {
     "t": "Direct",
     "s": "5 fundraising email subject lines that actually got replies.",
@@ -911,35 +936,40 @@ const PLAN = [
     "v": "Deck on screen, closed mid-slide"
    }
   ],
-  "script": "HOOK: 5 fundraising email subject lines that actually got replies, BUILD: I share the exact phrasing that cut through noise, boosted open rates, and sparked genuine investor interest, I tested them across 20 posts, each delivering 5.9 saves per thousand, proof they resonate with founders, PAYOFF: You can copy these lines, send them tomorrow, and expect higher reply rates, LOOP: Follow for more data-driven outreach tips.",
+  "script": "HOOK: The ask that closed our bridge round was one line long., BUILD: This $400K establishes Ryder's manufacturing line. That's it. That's the whole pitch. No magic numbers, no vision slide, no vague runway math. When investors asked what the money does, there was exactly one answer, and it was the same answer every time. Compare that to the average raise: a number pulled from nowhere and a use-of-funds slide nobody believes., PAYOFF: If you can't say what the round does in one sentence, the round isn't ready., LOOP: How we backed that one line with actual line items, next.",
   "shots": [
-   "0-2s: Title screen showing \"5 fundraising email subject lines that actually got replies.\"",
-   "2-5s: Screen capture of email draft with first subject line highlighted.",
-   "5-8s: Overlay of open rate metric rising.",
-   "8-12s: Screenshot of investor reply inbox receipt.",
-   "12-15s: Call-to-action slide with CTA text."
+   "0-2s: Hook direct to camera, overlay line 1",
+   "2-15s: Build, talking head with overlay beats per claim",
+   "15-22s: Payoff line, slight push-in, key overlay",
+   "22-25s: Loop tease to next part, series card"
   ],
   "overlay": [
-   "Subject lines that work",
-   "Open rates ↑",
-   "Real replies",
-   "Copy & send"
+   "the entire ask:",
+   "\"$400K establishes our manufacturing line\"",
+   "one line. every time.",
+   "Part 4/15"
   ],
-  "caption": "I built Ryder from a $5K grant to a $4.8M raise, leading a 9-person team that ships wallets from the Philippines to Amsterdam, I know how hard it is to break through inbox noise, I tested five fundraising email subject lines, each earned a direct reply from an investor, the open rates jumped to 5.9 saves per thousand across twenty posts, the data shows founders respond to clear, numbered hooks, I’m sharing the exact lines, the on-screen receipts, and the visual cues that made them work, use them in your next outreach, try these subject lines in your next outreach.",
-  "cta": "Try these subject lines in your next outreach."
+  "caption": "The ask that closed our bridge was one sentence: this $400K establishes Ryder's manufacturing line. Same answer to every investor, every time. If you can't say what the round does in one line, the round isn't ready. Comment RAISE for the full breakdown. Part 4.",
+  "cta": "Comment RAISE and I'll send the breakdown."
  },
  {
   "date": "2026-08-07",
-  "name": "Most people's crypto dies with them. Here's the 60-second fix.",
+  "name": "Investors fund line items (Fundraising series 5/15)",
   "topic": "Product",
-  "mission": "Convert",
-  "format": "Product demo",
-  "intensity": "Medium",
+  "mission": "Authority",
+  "format": "Talking head",
+  "intensity": "High",
   "niche": "Crypto / Ryder",
-  "hookType": "Contrarian/Hard Truth",
-  "framework": "Curiosity Reveal",
-  "why": "90d data: 6.5 saves/1K, above account average, and it sells the product. Business slot that earns its place. TapSafe social recovery story. Dark truth into product answer.",
+  "hookType": "List/Number",
+  "framework": "Numbered Listicle + Authority Credential",
+  "why": "Fundraising series 5/15, vault-sourced (pre-seed/bridge/seed retros, every number real). Replaced original slot: 'Most people's crypto dies with them. Here's the 60-second fix.'. Chained loop hands off to part 6.",
   "hooks": [
+   {
+    "t": "Fundraising Series · Numbered Listicle + Authority Credential",
+    "s": "VCs don't fund visions. They fund line items. Here are ours.",
+    "o": "chips $85K",
+    "v": "Talking head, direct to camera, text overlay on beat"
+   },
    {
     "t": "Contrarian/Hard Truth",
     "s": "Most people's crypto dies with them. Here's the 60-second fix.",
@@ -965,22 +995,23 @@ const PLAN = [
     "v": "Ryder One tap in real time"
    }
   ],
-  "script": "HOOK: Most people's crypto dies with them. Here's the 60-second fix. BUILD: I watched wallets become inaccessible when owners pass, I built TapSafe social recovery to keep assets reachable, I show the hardware, the QR code, the recovery contacts setup. PAYOFF: With Ryder you secure your crypto for life, you can recover it even if you are gone. LOOP: Secure your future, protect your crypto now.",
+  "script": "HOOK: VCs don't fund visions. They fund line items. Here are ours., BUILD: Our bridge target was $210K. That wasn't a round number we liked. It was chip development, $85K. Legal certifications, $30K. Molds, $70K. Design for manufacturing, $25K. Add it up: exactly $210K. Every investor could see precisely what physical thing their money turned into., PAYOFF: The round closed at 1.93x that target. Specificity is what oversubscribes a round in a down market., LOOP: There's a second trick hiding in that structure. Target versus extras. Next reel.",
   "shots": [
-   "0-2s: Person holding a dead phone, wallet icon fading",
-   "3-6s: Close-up of a family member trying to open a wallet, error message",
-   "7-12s: Ryder hardware wallet on a table, QR code being scanned",
-   "13-18s: TapSafe recovery flow on a phone, contacts confirming access",
-   "19-24s: World map highlighting Philippines to Amsterdam, 68 countries highlighted"
+   "0-2s: Hook direct to camera, overlay line 1",
+   "2-15s: Build, talking head with overlay beats per claim",
+   "15-22s: Payoff line, slight push-in, key overlay",
+   "22-25s: Loop tease to next part, series card"
   ],
   "overlay": [
-   "Crypto dies with owners",
-   "No seed, no access",
-   "TapSafe recovery",
-   "Ships to 68 countries"
+   "chips $85K",
+   "certs $30K",
+   "molds $70K",
+   "DFM $25K",
+   "= $210K. not a vibe.",
+   "Part 5/15"
   ],
-  "caption": "I built Ryder to stop crypto from dying with its owner, I saw families lose access, I created TapSafe social recovery, our hardware wallet protects keys, we grew from a $5K grant to $4.8M raised, our 9‑person team ships to 68 countries from the Philippines to Amsterdam, in 90 days we saved 6.5 accounts per 1,000 users, that is above the average, the device is simple to use, you set up recovery contacts in minutes, you keep control even if you are gone, our customers trust the reliability, we continuously improve firmware, we provide responsive support worldwide, Protect your crypto legacy with Ryder.",
-  "cta": "Protect your crypto legacy with Ryder."
+  "caption": "Our $210K bridge target wasn't a number we liked. It was chip development $85K, certifications $30K, molds $70K, DFM $25K. Exactly $210K. Investors could see the physical thing their money turned into, and the round closed at 1.93x target in a down market. Line items, not visions. Part 5.",
+  "cta": "Save this for your next raise."
  },
  {
   "date": "2026-08-08",
@@ -1362,16 +1393,22 @@ const PLAN = [
  },
  {
   "date": "2026-08-15",
-  "name": "We made a hardware wallet your mom can use. That was the hard part.",
+  "name": "Target + extras (Fundraising series 6/15)",
   "topic": "Product",
-  "mission": "Convert",
-  "format": "Product demo",
-  "intensity": "Medium",
+  "mission": "Authority",
+  "format": "Talking head",
+  "intensity": "High",
   "niche": "Crypto / Ryder",
-  "hookType": "Contrarian/Hard Truth",
-  "framework": "Pattern Interrupt",
-  "why": "90d data: 6.5 saves/1K, above account average, and it sells the product. Business slot that earns its place. Crypto-Native Upgrader ICP. Design story beats spec sheet.",
+  "hookType": "Curiosity Gap",
+  "framework": "Curiosity Reveal + Numbered Listicle",
+  "why": "Fundraising series 6/15, vault-sourced (pre-seed/bridge/seed retros, every number real). Replaced original slot: 'We made a hardware wallet your mom can use. That was the hard part.'. Chained loop hands off to part 7.",
   "hooks": [
+   {
+    "t": "Fundraising Series · Curiosity Reveal + Numbered Listicle",
+    "s": "Don't raise one number. Raise two.",
+    "o": "target: $210K = survive",
+    "v": "Talking head, direct to camera, text overlay on beat"
+   },
    {
     "t": "Pattern Interrupt",
     "s": "We made a hardware wallet your mom can use. That was the hard part.",
@@ -1397,35 +1434,40 @@ const PLAN = [
     "v": "Handing the device to an actual mom"
    }
   ],
-  "script": "HOOK: We made a hardware wallet your mom can use. That was the hard part. BUILD: The cryptography was solved years ago, what loses people money is 24 words on paper, confusing setup, and fear of doing it wrong. PAYOFF: Ryder One works in a tap because we spent our engineering on the human layer, and that's why people who'd never touch self-custody are using it across 68 countries. LOOP: Security your family can't use isn't security.",
+  "script": "HOOK: Don't raise one number. Raise two., BUILD: Our bridge wasn't a $400K round. It was a $210K target with $190K of extras on top. The target was survival: the manufacturing costs we could not skip. The extras were acceleration: a developer hire, six months of marketing. Investors saw a must-hit number that was believable, and everything above it was upside, not desperation., PAYOFF: We closed at $405K. Nearly double the target, slightly over the full round. The structure did the selling., LOOP: What we told our existing investors to get there is the most uncomfortable reel in this series.",
   "shots": [
-   "0-2s: device handed over, tap, done",
-   "2-5s: seed phrase chaos b-roll, papers, panic search",
-   "5-8s: clean setup flow screen recording",
-   "8-11s: map ping across 68 countries",
-   "11-13s: talking head for the loop line"
+   "0-2s: Hook direct to camera, overlay line 1",
+   "2-15s: Build, talking head with overlay beats per claim",
+   "15-22s: Payoff line, slight push-in, key overlay",
+   "22-25s: Loop tease to next part, series card"
   ],
   "overlay": [
-   "crypto was solved",
-   "humans weren't",
-   "one tap setup",
-   "68 countries and counting"
+   "target: $210K = survive",
+   "extras: $190K = accelerate",
+   "closed: $405,841",
+   "Part 6/15"
   ],
-  "caption": "The cryptography inside a hardware wallet was solved years before we started Ryder, what still loses people their money is everything around it, twenty-four words on a piece of paper, setup flows written by engineers for engineers, and the quiet fear of doing one step wrong. So we spent our hardest engineering on the human layer, and the result is a device that works in a tap and now ships to 68 countries, used by plenty of people who swore self-custody wasn't for them. Security your family can't operate is just a puzzle box. Comment RYDER to see the setup in real time.",
-  "cta": "Comment RYDER to see the 60-second setup"
+  "caption": "We didn't raise a $400K round. We raised a $210K survival target plus $190K of acceleration extras. The must-hit number was believable, everything above it read as upside instead of desperation, and it closed at $405,841. Structure does the selling. Part 6.",
+  "cta": "Share this with a founder mid-raise."
  },
  {
   "date": "2026-08-16",
-  "name": "From Bulacan to Amsterdam to Silicon Valley. The visa story nobody posts about.",
+  "name": "The uncomfortable insider call (Fundraising series 7/15)",
   "topic": "Founder",
-  "mission": "Reach",
-  "format": "Talking head + b-roll",
-  "intensity": "Medium",
+  "mission": "Authority",
+  "format": "Talking head",
+  "intensity": "High",
   "niche": "Founder Story",
-  "hookType": "Curiosity Gap",
-  "framework": "Vulnerable Origin",
-  "why": "90d data: overposted at 32 posts for 2.0 saves/1K. Cut to 6 slots and rebuilt on Authority Credential, the top market CANDIDATE (6 outlier hits, 3 accounts, 78x top signal). Vulnerable Origin took 3 market outlier hits. His version has real geography.",
+  "hookType": "Contrarian/Hard Truth",
+  "framework": "Brutal Honesty + Vulnerable Origin",
+  "why": "Fundraising series 7/15, vault-sourced (pre-seed/bridge/seed retros, every number real). Replaced original slot: 'From Bulacan to Amsterdam to Silicon Valley. The visa story nobody posts about.'. Chained loop hands off to part 8.",
   "hooks": [
+   {
+    "t": "Fundraising Series · Brutal Honesty + Vulnerable Origin",
+    "s": "We told our own investors: put more in, or we probably don't make it.",
+    "o": "the call we dreaded",
+    "v": "Talking head, direct to camera, text overlay on beat"
+   },
    {
     "t": "Curiosity Gap",
     "s": "From Bulacan to Amsterdam to Silicon Valley. The visa story nobody posts about.",
@@ -1451,22 +1493,21 @@ const PLAN = [
     "v": "Passport stamps close-up"
    }
   ],
-  "script": "HOOK: From Bulacan to Amsterdam to Silicon Valley. The visa story nobody posts about, BUILD: I left my hometown with a passport, faced three visa denials, learned the system, built a network that let me move to Amsterdam, then to Silicon Valley, PAYOFF: Today Ryder ships crypto wallets to 68 countries, we raised $4.8M with a nine-person team, and I share the raw steps that got us here, LOOP: Follow for the next founder deep-dive.",
+  "script": "HOOK: We told our own investors: put more in, or we probably don't make it., BUILD: Bridge round, cold market, short runway. Our play was to get on a call with every single existing investor and be completely direct. If you don't double down, the company likely dies, and the money you already put in goes to zero. Uncomfortable? Extremely. But when insiders re-upped, every new investor watching got the only signal that matters., PAYOFF: Insiders doubling down is the cleanest proof a round has. New money follows conviction, and conviction is only visible when it costs something., LOOP: The other thing that round taught us about warm intros, next.",
   "shots": [
-   "0-2s: Opening map animation tracing Bulacan to Amsterdam to Silicon Valley",
-   "2-5s: Close-up of passport stamps and visa denial letters",
-   "5-9s: Louise speaking in a modest office, background of Ryder wallets",
-   "9-13s: B-roll of Ryder devices being packaged, shipping labels for 68 countries",
-   "13-15s: Closing shot of Louise holding a wallet, text overlay of CTA"
+   "0-2s: Hook direct to camera, overlay line 1",
+   "2-15s: Build, talking head with overlay beats per claim",
+   "15-22s: Payoff line, slight push-in, key overlay",
+   "22-25s: Loop tease to next part, series card"
   ],
   "overlay": [
-   "Visa journey",
-   "3 denials, 1 breakthrough",
-   "$4.8M raised",
-   "68 countries shipped"
+   "the call we dreaded",
+   "\"double down or it's zero\"",
+   "insiders in = round closed",
+   "Part 7/15"
   ],
-  "caption": "From a small town in Bulacan I chased a visa, faced three denials, learned the paperwork, moved to Amsterdam, then to Silicon Valley, I built Ryder with a nine-person team, we raised $4.8M, our crypto hardware wallet now ships to 68 countries, the process taught me that every rejection is data, I documented each form, each interview, I turned bureaucracy into a growth engine, I share the exact steps that turned a visa nightmare into a global launch, the data shows this path boosted our authority credentials across three market outliers, watch the full story now.",
-  "cta": "Watch the full story now."
+  "caption": "In the bridge round we called every existing investor and said the quiet part: if you don't put more in, we probably don't make it, and your money goes to zero. When they doubled down anyway, new investors got the only signal that matters. Conviction is only visible when it costs something. Part 7.",
+  "cta": "Follow for the full bridge series."
  },
  {
   "date": "2026-08-17",
@@ -1686,16 +1727,22 @@ const PLAN = [
  },
  {
   "date": "2026-08-21",
-  "name": "The anxious holder is our biggest customer. Here's what they're anxious about.",
+  "name": "1,800 cold emails vs one intro (Fundraising series 8/15)",
   "topic": "Product",
-  "mission": "Convert",
+  "mission": "Authority",
   "format": "Talking head",
-  "intensity": "Medium",
+  "intensity": "High",
   "niche": "Crypto / Ryder",
-  "hookType": "Curiosity Gap",
-  "framework": "Audience Callout",
-  "why": "90d data: 6.5 saves/1K, above account average, and it sells the product. Business slot that earns its place. Names the ICP out loud. Audience Callout ran 3 outlier hits in signals.",
+  "hookType": "Contrarian/Hard Truth",
+  "framework": "Pattern Interrupt + Authority Credential",
+  "why": "Fundraising series 8/15, vault-sourced (pre-seed/bridge/seed retros, every number real). Replaced original slot: 'The anxious holder is our biggest customer. Here's what they're anxious about.'. Chained loop hands off to part 9.",
   "hooks": [
+   {
+    "t": "Fundraising Series · Pattern Interrupt + Authority Credential",
+    "s": "We emailed 1,800 VCs. The round was closed by warm intros.",
+    "o": "1,800 cold emails",
+    "v": "Talking head, direct to camera, text overlay on beat"
+   },
    {
     "t": "Audience Callout",
     "s": "The anxious holder is our biggest customer. Here's what they're anxious about.",
@@ -1721,22 +1768,21 @@ const PLAN = [
     "v": "Phone check reenactment, 3am lighting"
    }
   ],
-  "script": "HOOK: The anxious holder is our biggest customer. Here's what they're anxious about. BUILD: They own crypto but sleep badly over it, seed phrases in drawers, exchanges they don't trust, one wrong tap from disaster. PAYOFF: We designed Ryder One around those exact fears, recovery without a seed phrase, setup you can't fumble, and that's why the anxious holder became our loudest advocate. LOOP: If checking your wallet spikes your heart rate, this was built for you.",
+  "script": "HOOK: We emailed 1,800 VCs. The round was closed by warm intros., BUILD: For our seed we did the mass outreach thing. Eighteen hundred funds. And sure, it created noise. But the checks that closed came through people vouching for us. A warm intro doesn't just raise your hit rate on a yes. It raises your hit rate on getting any answer at all. VCs answer the person who came recommended and archive the stranger., PAYOFF: Spend your outreach energy getting introduced, not getting ignored at scale., LOOP: One of those intros led to a no that became our lead investor two years later. Next reel.",
   "shots": [
-   "0-2s: 2am phone check b-roll, cut to face",
-   "2-5s: the three fears as quick visual vignettes",
-   "5-8s: product answering each fear on screen",
-   "8-11s: testimonial-style overlay moments",
-   "11-13s: direct to lens for the loop callout"
+   "0-2s: Hook direct to camera, overlay line 1",
+   "2-15s: Build, talking head with overlay beats per claim",
+   "15-22s: Payoff line, slight push-in, key overlay",
+   "22-25s: Loop tease to next part, series card"
   ],
   "overlay": [
-   "owns crypto, sleeps badly",
-   "seed phrase in a drawer",
-   "fear-first design",
-   "built for exactly you"
+   "1,800 cold emails",
+   "closed by: intros",
+   "warm > volume. every time.",
+   "Part 8/15"
   ],
-  "caption": "When we mapped Ryder's customers, the biggest group wasn't the degen or the maximalist, it was the anxious holder, someone who owns crypto and quietly loses sleep over it, a seed phrase in a drawer they hope nobody finds, an exchange they half trust, a permanent feeling of being one wrong tap from disaster. We designed Ryder One around those exact fears, recovery that doesn't hinge on 24 words, setup you can't fumble, and that group went from our most hesitant buyers to our loudest advocates. If checking your wallet raises your heart rate, comment CALM and I'll show you why it doesn't have to.",
-  "cta": "Comment CALM for the walkthrough"
+  "caption": "We blasted 1,800 VCs for our seed. The checks that closed came through warm intros. An intro doesn't just raise your odds of a yes, it raises your odds of any answer at all. Spend the energy on getting introduced, not on getting archived at scale. Part 8.",
+  "cta": "Tag a founder doing cold outreach right now."
  },
  {
   "date": "2026-08-22",
@@ -2010,16 +2056,22 @@ const PLAN = [
  },
  {
   "date": "2026-08-27",
-  "name": "I won Startup Weekend in 2015. It took 10 years for that to matter.",
+  "name": "The no that became the lead (Fundraising series 9/15)",
   "topic": "Founder",
   "mission": "Authority",
   "format": "Talking head",
-  "intensity": "Medium",
+  "intensity": "High",
   "niche": "Founder Story",
   "hookType": "Curiosity Gap",
-  "framework": "Authority Credential",
-  "why": "90d data: overposted at 32 posts for 2.0 saves/1K. Cut to 6 slots and rebuilt on Authority Credential, the top market CANDIDATE (6 outlier hits, 3 accounts, 78x top signal). Credential with a delayed-payoff twist, not a brag.",
+  "framework": "Vulnerable Origin + Authority Credential",
+  "why": "Fundraising series 9/15, vault-sourced (pre-seed/bridge/seed retros, every number real). Replaced original slot: 'I won Startup Weekend in 2015. It took 10 years for that to matter.'. Chained loop hands off to part 10.",
   "hooks": [
+   {
+    "t": "Fundraising Series · Vulnerable Origin + Authority Credential",
+    "s": "Tim Draper said no to us. Two years later he led our round.",
+    "o": "2022: no",
+    "v": "Talking head, direct to camera, text overlay on beat"
+   },
    {
     "t": "Authority Credential",
     "s": "I won Startup Weekend in 2015. It took 10 years for that to matter.",
@@ -2045,22 +2097,21 @@ const PLAN = [
     "v": "Old photo cut to CNBC clip"
    }
   ],
-  "script": "HOOK: I won Startup Weekend in 2015. It took 10 years for that to matter. BUILD: The win opened zero doors by itself, what it actually gave me was proof I could build under pressure, and I spent a decade compounding that through jobs, a scholarship, and a first startup. PAYOFF: Credentials don't pay out on the day you earn them, they pay out when the compounding catches up. LOOP: Whatever you won this year matters in 2035. Keep building.",
+  "script": "HOOK: Tim Draper said no to us. Two years later he led our round., BUILD: First time we pitched Draper Associates, Ryder was a deck. Nothing happened. We kept building: hardware shipped, revenue, real users. When we circled back two years later, the conversation was completely different, because we weren't a deck anymore. Term sheet signed within weeks of the in-person meeting., PAYOFF: A no is almost never about you. It's about now. Treat every rejection as a pipeline entry with a future date on it., LOOP: The weird reason our biggest competitor being in his portfolio actually helped, next reel.",
   "shots": [
-   "0-2s: 2015 photo, match cut to now",
-   "2-5s: timeline b-roll, Amsterdam, first startup, Ryder",
-   "5-8s: talking head on the zero-doors truth",
-   "8-11s: present-day team and product shots",
-   "11-13s: direct to lens for the loop"
+   "0-2s: Hook direct to camera, overlay line 1",
+   "2-15s: Build, talking head with overlay beats per claim",
+   "15-22s: Payoff line, slight push-in, key overlay",
+   "22-25s: Loop tease to next part, series card"
   ],
   "overlay": [
-   "won in 2015",
-   "zero doors opened",
-   "compounded for 10 years",
-   "2035 is watching"
+   "2022: no",
+   "2024: term sheet",
+   "a no is a \"not yet\" with a date",
+   "Part 9/15"
   ],
-  "caption": "In 2015 I won Startup Weekend ASEAN and honestly expected doors to open, and none did, no funding, no offers, nothing you could screenshot. What the win actually gave me was quieter, proof to myself that I could build something real under pressure, and I spent the next decade compounding that through a scholarship to Amsterdam, a growth role in crypto, a first startup, and now Ryder. Credentials are seeds, not checks, they pay out years later when the compounding catches up to the claim. Whatever you win this year, it's for 2035. Save this as the reminder.",
-  "cta": "Save this as the 2035 reminder"
+  "caption": "We pitched Draper when Ryder was just a deck and got nothing. Two years of shipping later, the same door opened and the round got led. A no is almost never about you, it's about now. Every rejection is a pipeline entry with a future date on it. Part 9.",
+  "cta": "Save this for your next rejection."
  },
  {
   "date": "2026-08-28",
@@ -2280,16 +2331,22 @@ const PLAN = [
  },
  {
   "date": "2026-09-01",
-  "name": "Crypto travel mistakes that cost people their funds. From real support tickets.",
+  "name": "Your competitor is your way in (Fundraising series 10/15)",
   "topic": "Product",
-  "mission": "Convert",
-  "format": "Talking head + overlay",
-  "intensity": "Medium",
+  "mission": "Authority",
+  "format": "Talking head",
+  "intensity": "High",
   "niche": "Crypto / Ryder",
-  "hookType": "List/Number",
-  "framework": "Curiosity Reveal",
-  "why": "90d data: 6.5 saves/1K, above account average, and it sells the product. Business slot that earns its place. Crypto Traveler ICP, sourced from genuine support data.",
+  "hookType": "Curiosity Gap",
+  "framework": "Curiosity Reveal + Authority Credential",
+  "why": "Fundraising series 10/15, vault-sourced (pre-seed/bridge/seed retros, every number real). Replaced original slot: 'Crypto travel mistakes that cost people their funds. From real support tickets.'. Chained loop hands off to part 11.",
   "hooks": [
+   {
+    "t": "Fundraising Series · Curiosity Reveal + Authority Credential",
+    "s": "Ledger was our lead investor's biggest position. That's why he invested in us.",
+    "o": "their biggest position: our competitor",
+    "v": "Talking head, direct to camera, text overlay on beat"
+   },
    {
     "t": "List",
     "s": "Crypto travel mistakes that cost people their funds. From real support tickets.",
@@ -2315,22 +2372,21 @@ const PLAN = [
     "v": "Airport b-roll, ticket screenshots"
    }
   ],
-  "script": "HOOK: Crypto travel mistakes that cost people their funds. From real support tickets. BUILD: Seed phrases photographed and synced to cloud, wallets on hotel wifi, devices in checked luggage, border stress leading to wrong-address sends, no recovery plan when a phone dies abroad. PAYOFF: Every one of these is preventable with setup you do before the flight, not after the loss. LOOP: Save this before your next trip, seriously.",
+  "script": "HOOK: Ledger was our lead investor's biggest position. That's why he invested in us., BUILD: Sounds backwards. When we re-engaged Draper, Ledger was the largest investment in their fund. I assumed conflict, dead end. The partner saw it differently: he owned ten hardware wallets, hated the UX on all of them, and a bet on us was a hedge on the whole category. The conflict was the thesis., PAYOFF: Stop crossing out funds that backed your competitor. They're the ones who already believe in your market. You just have to be the better answer., LOOP: How we negotiated that term sheet, and the counter that doubled our valuation, next.",
   "shots": [
-   "0-2s: blurred support inbox, cut to face",
-   "2-5s: mistakes one to three as fast vignettes",
-   "5-8s: mistakes four and five, airport b-roll",
-   "8-11s: the pre-flight setup on screen",
-   "11-13s: boarding pass shot with save reminder"
+   "0-2s: Hook direct to camera, overlay line 1",
+   "2-15s: Build, talking head with overlay beats per claim",
+   "15-22s: Payoff line, slight push-in, key overlay",
+   "22-25s: Loop tease to next part, series card"
   ],
   "overlay": [
-   "mistake 1: cloud-synced seed",
-   "mistake 3: checked luggage",
-   "mistake 5: no recovery plan",
-   "fix it before the flight"
+   "their biggest position: our competitor",
+   "10 wallets. hated all of them.",
+   "conflict = thesis",
+   "Part 10/15"
   ],
-  "caption": "These come straight from real Ryder support tickets, anonymized, and they hurt to read. Seed phrases photographed and quietly synced to a cloud account, wallets opened on hotel wifi, hardware in checked luggage that never arrived, panicked border moments ending in a send to the wrong address, and the classic, a phone dies abroad with no recovery plan anywhere. Every single one is preventable with thirty minutes of setup before the flight, which is why we built travel-proof recovery into Ryder One in the first place. Save this before your next trip, and comment TRAVEL for the pre-flight checklist.",
-  "cta": "Comment TRAVEL for the pre-flight checklist"
+  "caption": "Our biggest competitor was our lead investor's largest fund position. I assumed dead end. He saw a hedge on a category whose UX he already hated. Funds that backed your competitor already believe in your market. You just have to be the better answer. Part 10.",
+  "cta": "Follow for the negotiation reel."
  },
  {
   "date": "2026-09-02",
@@ -2550,16 +2606,22 @@ const PLAN = [
  },
  {
   "date": "2026-09-06",
-  "name": "Why we're building a bank on top of a wallet. The roadmap nobody asked for.",
+  "name": "Always counter (Fundraising series 11/15)",
   "topic": "Product",
   "mission": "Authority",
   "format": "Talking head",
-  "intensity": "Medium",
+  "intensity": "High",
   "niche": "Crypto / Ryder",
-  "hookType": "Curiosity Gap",
-  "framework": "Curiosity Reveal",
-  "why": "90d data: 6.5 saves/1K, above account average, and it sells the product. Business slot that earns its place. Neobank vision framed as overshare, positions the company arc.",
+  "hookType": "Contrarian/Hard Truth",
+  "framework": "Authority Credential + Pattern Interrupt",
+  "why": "Fundraising series 11/15, vault-sourced (pre-seed/bridge/seed retros, every number real). Replaced original slot: 'Why we're building a bank on top of a wallet. The roadmap nobody asked for.'. Chained loop hands off to part 12.",
   "hooks": [
+   {
+    "t": "Fundraising Series · Authority Credential + Pattern Interrupt",
+    "s": "The first offer was $1M for 10%. We signed $1M at $20M post.",
+    "o": "offer: $1M for 10%",
+    "v": "Talking head, direct to camera, text overlay on beat"
+   },
    {
     "t": "Curiosity Gap",
     "s": "Why we're building a bank on top of a wallet. The roadmap nobody asked for.",
@@ -2585,35 +2647,40 @@ const PLAN = [
     "v": "Whiteboard roadmap sketch"
    }
   ],
-  "script": "HOOK: Why we're building a bank on top of a wallet. The roadmap nobody asked for. BUILD: Self-custody solved the trust problem but left the utility problem, people still route through exchanges and banks that hold their money to actually use it. PAYOFF: A neobank where the keys never leave your hands means spending, saving, and earning without ever handing custody back, that's the full arc Ryder is on. LOOP: Step one shipped to 68 countries. Follow for step two.",
+  "script": "HOOK: The first offer was $1M for 10%. We signed $1M at $20M post., BUILD: Draper's opening offer valued us at half of what we believed. We countered at 4%, argued it respected the soft commitments we already had around $30M, and anchored to our distribution targets. They came back with two options. We took $1M at $20M post-money. Lower than our original target, yes. Double their opener., PAYOFF: A term sheet's first number is an opener, not a verdict. Founders who don't counter pay for it in every future round., LOOP: One term in that deal came back to bite us anyway. That's the next reel.",
   "shots": [
-   "0-2s: device on table, UI materializing above",
-   "2-5s: the exchange-dependency problem visualized",
-   "5-8s: roadmap stages appearing in sequence",
-   "8-11s: talking head on the custody line",
-   "11-13s: 68-country map into follow prompt"
+   "0-2s: Hook direct to camera, overlay line 1",
+   "2-15s: Build, talking head with overlay beats per claim",
+   "15-22s: Payoff line, slight push-in, key overlay",
+   "22-25s: Loop tease to next part, series card"
   ],
   "overlay": [
-   "trust: solved",
-   "utility: not yet",
-   "your keys, full bank",
-   "step 2 loading"
+   "offer: $1M for 10%",
+   "counter: 4%",
+   "signed: $20M post",
+   "Part 11/15"
   ],
-  "caption": "People ask why a hardware wallet company talks about becoming a neobank, and the answer is that self-custody solved trust but not utility, you can hold your own keys and still be forced through exchanges and banks the moment you want to actually use your money. The arc we're building at Ryder is the full stack, spend, save, and earn while the keys never leave your hands, a bank that structurally cannot rug you because it never holds your funds in the first place. Step one already ships to 68 countries. Follow along for step two, and comment ROADMAP if you want the deeper breakdown.",
-  "cta": "Comment ROADMAP for the deeper breakdown"
+  "caption": "The opening offer was $1M for 10% of the company. We countered at 4%, anchored to the soft commitments we already had, and signed at $20M post. Double the opener. A term sheet's first number is a starting position, not a verdict. Part 11.",
+  "cta": "Save before your next term sheet."
  },
  {
   "date": "2026-09-07",
-  "name": "9 people, 68 countries, millions secured. What a tiny team actually looks like.",
+  "name": "The term that bit back (Fundraising series 12/15)",
   "topic": "Founder",
   "mission": "Authority",
-  "format": "Team b-roll + talking head",
-  "intensity": "Medium",
+  "format": "Talking head",
+  "intensity": "High",
   "niche": "Founder Story",
-  "hookType": "List/Number",
-  "framework": "Authority Credential",
-  "why": "90d data: overposted at 32 posts for 2.0 saves/1K. Cut to 6 slots and rebuilt on Authority Credential, the top market CANDIDATE (6 outlier hits, 3 accounts, 78x top signal). Three credentials in one line, then the honest behind-the-scenes.",
+  "hookType": "Curiosity Gap",
+  "framework": "Brutal Honesty + Curiosity Reveal",
+  "why": "Fundraising series 12/15, vault-sourced (pre-seed/bridge/seed retros, every number real). Replaced original slot: '9 people, 68 countries, millions secured. What a tiny team actually looks like.'. Chained loop hands off to part 13.",
   "hooks": [
+   {
+    "t": "Fundraising Series · Brutal Honesty + Curiosity Reveal",
+    "s": "One term in our seed deal spooked every investor who came after.",
+    "o": "1x warrants, 5 years",
+    "v": "Talking head, direct to camera, text overlay on beat"
+   },
    {
     "t": "Authority Credential",
     "s": "9 people, 68 countries, millions secured. What a tiny team actually looks like.",
@@ -2639,22 +2706,21 @@ const PLAN = [
     "v": "Hand-drawn org chart on paper"
    }
   ],
-  "script": "HOOK: 9 people, 68 countries, millions secured. What a tiny team actually looks like. BUILD: Hardware, firmware, app, support, logistics, growth, and fundraising, nine humans covering all of it, which means everyone ships and nobody hides. PAYOFF: Small isn't a limitation, it's the filter, every hire changes the company by 11 percent, so the bar stays brutal and the speed stays high. LOOP: The team behind your wallet fits in one van. That's the feature.",
+  "script": "HOOK: One term in our seed deal spooked every investor who came after., BUILD: To close our lead we accepted 1x warrant coverage for five years. Felt like a fair trade at the time to get the deal done. Then follow-on VCs started diligence, and every single one flagged the warrant overhang. We eventually negotiated a cancellation, trading ordinary shares to clean it up., PAYOFF: Terms you accept today become diligence flags tomorrow. Price every clause by what the next round's investors will think of it, not just this one's., LOOP: What announcing a round does to your inbound. Genuinely strange. Next.",
   "shots": [
-   "0-2s: nine faces populate a grid",
-   "2-5s: role labels stacking fast",
-   "5-8s: b-roll of real work, warehouse, code, calls",
-   "8-11s: talking head on the 11 percent line",
-   "11-13s: team photo for the loop line"
+   "0-2s: Hook direct to camera, overlay line 1",
+   "2-15s: Build, talking head with overlay beats per claim",
+   "15-22s: Payoff line, slight push-in, key overlay",
+   "22-25s: Loop tease to next part, series card"
   ],
   "overlay": [
-   "9 humans, 7 functions",
-   "everyone ships",
-   "1 hire = 11% change",
-   "fits in one van"
+   "1x warrants, 5 years",
+   "every follow-on VC flagged it",
+   "we paid to undo it",
+   "Part 12/15"
   ],
-  "caption": "People consistently assume Ryder is a 50-person company, and it's nine, nine humans covering hardware, firmware, the app, support, logistics, growth, and a fundraise, shipping devices to 68 countries with real money secured on them. Small was never the constraint, it's the filter, because when one hire changes the company by 11 percent the bar stays brutal, ownership is total, and nobody gets to hide behind a department. The entire team behind your wallet fits in one van, and I genuinely think that's a feature. Comment TEAM if you want the breakdown of who does what.",
-  "cta": "Comment TEAM for the who-does-what breakdown"
+  "caption": "We accepted 1x warrant coverage to close our lead. Every follow-on VC flagged it in diligence, and we eventually traded shares to cancel it. Terms you accept today become diligence flags tomorrow. Price every clause by the next round, not just this one. Part 12.",
+  "cta": "Share with a founder reading a term sheet."
  },
  {
   "date": "2026-09-08",
@@ -2874,16 +2940,22 @@ const PLAN = [
  },
  {
   "date": "2026-09-12",
-  "name": "The $0 AI research setup I use before every investor meeting.",
+  "name": "Announce when you open, not when you close (Fundraising series 13/15)",
   "topic": "AI",
-  "mission": "Saves",
-  "format": "Screen demo",
-  "intensity": "Medium",
+  "mission": "Authority",
+  "format": "Talking head",
+  "intensity": "High",
   "niche": "AI / Tech Workflows",
-  "hookType": "List/Number",
-  "framework": "Demo / Unboxing",
-  "why": "90d data: best niche both ways, 9.3 saves/1K and 17.8K avg views on only 13 posts. Most underposted winner. Fundraising crossover, two ICPs in one save play.",
+  "hookType": "Curiosity Gap",
+  "framework": "Curiosity Reveal + Pattern Interrupt",
+  "why": "Fundraising series 13/15, vault-sourced (pre-seed/bridge/seed retros, every number real). Replaced original slot: 'The $0 AI research setup I use before every investor meeting.'. Chained loop hands off to part 14.",
   "hooks": [
+   {
+    "t": "Fundraising Series · Curiosity Reveal + Pattern Interrupt",
+    "s": "The moment you announce you're raising, more VCs show up. I can't fully explain it.",
+    "o": "announce at open",
+    "v": "Talking head, direct to camera, text overlay on beat"
+   },
    {
     "t": "List",
     "s": "The $0 AI research setup I use before every investor meeting.",
@@ -2909,35 +2981,40 @@ const PLAN = [
     "v": "Research doc building itself on screen"
    }
   ],
-  "script": "HOOK: The $0 AI research setup I use before every investor meeting. BUILD: Twenty minutes out, I run their portfolio for pattern matches, recent posts and interviews for what they actually care about now, and a one-page brief on where Ryder fits their thesis. PAYOFF: Walking in with their context beats walking in with your pitch, meetings become conversations and conversations become checks. LOOP: The prompt chain is three steps. Want it?",
+  "script": "HOOK: The moment you announce you're raising, more VCs show up. I can't fully explain it., BUILD: Every founder waits to announce the round until it's closed. We learned to announce when we're going out for capital, because the inbound spikes the moment it's public. Investors are pattern-matchers: a round being open and moving is itself a signal. The announcement creates the momentum it reports., PAYOFF: Your raise announcement isn't a press release about the past. It's a tool for the raise itself., LOOP: What the closing announcement did for us in four days, next reel.",
   "shots": [
-   "0-2s: invite notification, timer starts",
-   "2-5s: portfolio pattern scan on screen",
-   "5-8s: recent interviews summarized",
-   "8-11s: the one-page brief assembling",
-   "11-13s: walking into a meeting for the loop"
+   "0-2s: Hook direct to camera, overlay line 1",
+   "2-15s: Build, talking head with overlay beats per claim",
+   "15-22s: Payoff line, slight push-in, key overlay",
+   "22-25s: Loop tease to next part, series card"
   ],
   "overlay": [
-   "step 1: portfolio patterns",
-   "step 2: what they said lately",
-   "step 3: fit brief",
-   "context > pitch"
+   "announce at open",
+   "inbound spikes",
+   "the announcement IS the momentum",
+   "Part 13/15"
   ],
-  "caption": "Twenty minutes before any investor meeting I run the same free setup, an AI pass over their portfolio for pattern matches with Ryder, a scan of their recent posts and interviews to hear what they actually care about right now, and a one-page brief on where we fit their thesis. It costs nothing and it changes the room, because walking in with their context turns a pitch into a conversation, and every check we've raised started as a conversation. This is how a 9-person company shows up sharper than the associate across the table. Comment PREP and I'll send the three-step prompt chain.",
-  "cta": "Comment PREP for the prompt chain"
+  "caption": "Everyone announces the round after it closes. We announce when we go out for capital, because inbound spikes the moment it's public. An open, moving round is itself the signal investors pattern-match on. The announcement creates the momentum it reports. Part 13.",
+  "cta": "Follow for the PR numbers."
  },
  {
   "date": "2026-09-13",
-  "name": "I met my co-founder at my last startup. Here's how you actually find one.",
+  "name": "The announcement is an asset (Fundraising series 14/15)",
   "topic": "Founder",
   "mission": "Authority",
   "format": "Talking head",
-  "intensity": "Medium",
+  "intensity": "High",
   "niche": "Founder Story",
-  "hookType": "Curiosity Gap",
-  "framework": "Authority Credential",
-  "why": "90d data: overposted at 32 posts for 2.0 saves/1K. Cut to 6 slots and rebuilt on Authority Credential, the top market CANDIDATE (6 outlier hits, 3 accounts, 78x top signal). Real Marvin story answers the most-asked founder question.",
+  "hookType": "List/Number",
+  "framework": "Authority Credential + Numbered Listicle",
+  "why": "Fundraising series 14/15, vault-sourced (pre-seed/bridge/seed retros, every number real). Replaced original slot: 'I met my co-founder at my last startup. Here's how you actually find one.'. Chained loop hands off to part 15.",
   "hooks": [
+   {
+    "t": "Fundraising Series · Authority Credential + Numbered Listicle",
+    "s": "One funding announcement: 20,000 signups in 4 days and 25 million impressions.",
+    "o": "20K signups / 4 days",
+    "v": "Talking head, direct to camera, text overlay on beat"
+   },
    {
     "t": "Curiosity Gap",
     "s": "I met my co-founder at my last startup. Here's how you actually find one.",
@@ -2963,22 +3040,21 @@ const PLAN = [
     "v": "Early prototype photo held to camera"
    }
   ],
-  "script": "HOOK: I met my co-founder at my last startup. Here's how you actually find one. BUILD: Marvin and I worked in the same trenches first, real deadlines, real failures, so by the time Ryder existed we already knew how each other breaks and recovers. PAYOFF: You don't find a co-founder by matching, you find one by shipping next to people until someone becomes obvious. LOOP: The best co-founder search is a project, not a coffee chat.",
+  "script": "HOOK: One funding announcement: 20,000 signups in 4 days and 25 million impressions., BUILD: When our $1.2M pre-seed went public, the coverage did more for the company than the money did that week. Twenty thousand email signups in four days. Twenty-five million impressions. A 1,230% jump in reach. We didn't get lucky. We treated the announcement like a product launch: embargo, press list, story angle, founder narrative., PAYOFF: Budget the PR moment as part of the round. The capital funds the company. The announcement funds the pipeline: customers, hires, and your next investors., LOOP: The instrument we raised that round on, and when it stops working, is the last reel in this series.",
   "shots": [
-   "0-2s: old team photo, two faces circled",
-   "2-5s: early shipped-work b-roll",
-   "5-8s: talking head on how each other breaks",
-   "8-11s: present-day Ryder footage together",
-   "11-13s: direct to lens for the loop line"
+   "0-2s: Hook direct to camera, overlay line 1",
+   "2-15s: Build, talking head with overlay beats per claim",
+   "15-22s: Payoff line, slight push-in, key overlay",
+   "22-25s: Loop tease to next part, series card"
   ],
   "overlay": [
-   "same trenches first",
-   "saw the failure modes",
-   "then founded",
-   "project > coffee chat"
+   "20K signups / 4 days",
+   "25M impressions",
+   "announcement = product launch",
+   "Part 14/15"
   ],
-  "caption": "Marvin and I met working at my last startup, which means before Ryder ever existed we had already shipped under real deadlines, missed things, fixed things, and seen exactly how the other person behaves when a launch is on fire. That's the part no co-founder matching event can give you, because you can interview for skills but you cannot interview for trenches. My honest advice to every solo founder asking how to find their person is to stop searching and start shipping next to people, the co-founder becomes obvious with time. Comment COFOUNDER for the questions I'd still ask before signing anything.",
-  "cta": "Comment COFOUNDER for the question list"
+  "caption": "Our $1.2M pre-seed announcement drove 20,000 email signups in four days and 25 million impressions. Not luck: embargo, press list, story angle, treated like a product launch. The capital funds the company. The announcement funds the pipeline. Part 14.",
+  "cta": "Save this for your close."
  },
  {
   "date": "2026-09-14",
@@ -3198,16 +3274,22 @@ const PLAN = [
  },
  {
   "date": "2026-09-18",
-  "name": "The worst month of my founder life happened right before the best one.",
+  "name": "Uncapped vs capped, in one round each (Fundraising series 15/15)",
   "topic": "Founder",
-  "mission": "Reach",
+  "mission": "Authority",
   "format": "Talking head",
-  "intensity": "Medium",
+  "intensity": "High",
   "niche": "Founder Story",
-  "hookType": "Cliffhanger Tease",
-  "framework": "Vulnerable Origin",
-  "why": "90d data: overposted at 32 posts for 2.0 saves/1K. Cut to 6 slots and rebuilt on Authority Credential, the top market CANDIDATE (6 outlier hits, 3 accounts, 78x top signal). Vulnerable Origin market signal, closes the 60 days on the human arc.",
+  "hookType": "Contrarian/Hard Truth",
+  "framework": "Authority Credential + Curiosity Reveal",
+  "why": "Fundraising series 15/15, vault-sourced (pre-seed/bridge/seed retros, every number real). Replaced original slot: 'The worst month of my founder life happened right before the best one.'. Chained loop hands off to part 1.",
   "hooks": [
+   {
+    "t": "Fundraising Series · Authority Credential + Curiosity Reveal",
+    "s": "We raised on uncapped notes in 2022. The same structure nearly killed our 2023 round.",
+    "o": "2022: uncapped = closed fast",
+    "v": "Talking head, direct to camera, text overlay on beat"
+   },
    {
     "t": "Cliffhanger",
     "s": "The worst month of my founder life happened right before the best one.",
@@ -3233,21 +3315,20 @@ const PLAN = [
     "v": "Black screen cut to award footage"
    }
   ],
-  "script": "HOOK: The worst month of my founder life happened right before the best one, BUILD: I faced a cash freeze, halted shipments, then landed a $5K grant that sparked a $4.8M raise, grew to a 9‑person team, shipped to 68 countries, refined content from 32 low‑performing posts to six high‑impact slots, saw a 78‑times signal lift, PAYOFF: vulnerability turned into authority and growth, LOOP: Stay tuned for the next chapter.",
+  "script": "HOOK: We raised on uncapped notes in 2022. The same structure nearly killed our 2023 round., BUILD: Uncapped note means no valuation ceiling: investors ride whatever the next round prices at. Founder-friendly, and in a bull market people took it, because they were betting on us, not a spreadsheet. Then 2023. Same structure, frozen round. Months of nothing until we reworked it into a capped note at $12M post. It closed almost double its target., PAYOFF: The instrument isn't right or wrong. It's priced by the market you're raising in. Uncapped is a bull-market instrument. Caps are what conviction looks like when money is scared., LOOP: Start of this series is pinned: the $250K DM that started everything.",
   "shots": [
-   "0-2s: Opening close-up, I state the hook",
-   "2-6s: Cut to empty warehouse, voice over cash freeze",
-   "6-12s: Show grant email, then funding graphic",
-   "12-18s: Team meeting, map of 68 countries lighting up",
-   "18-24s: Data dashboard, signal boost graphic, end with CTA"
+   "0-2s: Hook direct to camera, overlay line 1",
+   "2-15s: Build, talking head with overlay beats per claim",
+   "15-22s: Payoff line, slight push-in, key overlay",
+   "22-25s: Loop tease to next part, series card"
   ],
   "overlay": [
-   "Worst month",
-   "Cash freeze",
-   "$5K grant → $4.8M",
-   "78x signal boost"
+   "2022: uncapped = closed fast",
+   "2023: uncapped = frozen",
+   "recut at $12M cap: 1.93x target",
+   "Part 15/15"
   ],
-  "caption": "I survived the toughest month of my startup, a cash crunch that forced us to pause shipments, then the next month we secured a $5K grant, turned it into $4.8M in funding, expanded our 9‑person team, and shipped wallets to 68 countries from the Philippines to Amsterdam, I share the raw data that showed 32 posts yielding only 2 saves per thousand, I cut to six focused slots, rebuilt authority, hit six outlier signals across three accounts, the result was a 78‑times signal boost, the lesson is vulnerability fuels growth, keep iterating, keep listening, the journey continues, Join us now.",
-  "cta": "Join us now."
+  "caption": "We raised our pre-seed on uncapped notes and it flew. The same structure froze our bridge in the 2023 market until we recut it as a capped note at $12M post, and it closed at almost double target. Instruments aren't right or wrong, they're priced by the market you raise in. Part 15, series ends here. Part 1 is pinned.",
+  "cta": "Follow @louise.ivan for the full fundraising series."
  }
 ];
