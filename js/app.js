@@ -36,15 +36,15 @@ document.getElementById('statcards').innerHTML = [
   ['Total views', fmt(totals.v), 'lifetime'],
   ['Total saves', fmt(totals.s), 'authority signal'],
   ['Total shares', fmt(totals.sh), 'distribution signal'],
-  ['Followers', '7,347', 'at pull time'],
-  ['Views per follower', (totals.v/7347).toFixed(0)+'x', 'reach beyond audience']
+  ['Followers', '7,612', 'at pull time'],
+  ['Views per follower', (totals.v/7612).toFixed(0)+'x', 'reach beyond audience']
 ].map(([k,v,d])=>`<div class="card"><div class="k">${k}</div><div class="v">${v}</div><div class="d">${d}</div></div>`).join('');
 
 document.getElementById('sidemeta').innerHTML =
   '<div class="row"><span>posts</span><b>'+DATA.length+'</b></div>'+
   '<div class="row"><span>niches</span><b>'+Object.keys(byNiche).length+'</b></div>'+
   '<div class="row"><span>views</span><b>'+fmt(totals.v)+'</b></div>'+
-  '<div class="row"><span>pulled</span><b>2026-07-02</b></div>';
+  '<div class="row"><span>pulled</span><b>2026-07-21</b></div>';
 
 /* ---------- bars ---------- */
 function bars(el, rows, colorFn, valFmt){
@@ -691,7 +691,7 @@ document.getElementById('legend').innerHTML = Object.entries(NICHE_COLORS)
   </div>
   <div class="callout">
     <div class="ct"><span class="cico">thought leader math</span>The path to 100K</div>
-    <p>Your views run at <b>${(totals.v/7347).toFixed(0)}x your follower count</b>, so reach is not the constraint. Conversion is. The niches that convert viewers into followers who care about Louise the founder are AI workflows (saves) and confession-led founder story (comments: the "Turned 32" post pulled 29 comments on 763 reach). Weekly split that this data supports: 3 AI or crypto authority reels, 2 confession-led founder reels, 2 lifestyle reach plays.</p>
+    <p>Your views run at <b>${(totals.v/7612).toFixed(0)}x your follower count</b>, so reach is not the constraint. Conversion is. The niches that convert viewers into followers who care about Louise the founder are AI workflows (saves) and confession-led founder story (comments: the "Turned 32" post pulled 29 comments on 763 reach). Weekly split that this data supports: 3 AI or crypto authority reels, 2 confession-led founder reels, 2 lifestyle reach plays.</p>
   </div>`;
 })();
 
